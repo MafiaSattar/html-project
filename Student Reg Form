@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Student Rejistration Form</h2>
+    <h2>Fields</h2>
+    <form>
+        <input type="text" placeholder="username">
+        <br>
+        <input type="password" placeholder="password">
+        <hr>
+        <h2>Select Class Level</h2>
+        <lable>
+            <input type="radio" value="Matrix" name="class">Matrix
+            <br>
+            <input type="radio" value="Inter" name="class">Inter
+            <br>
+            <input type="radio" value="BS" name="class">BS
+            <hr>
+            <h2>Select Your Subject </h2>
+            <input type="checkbox" value="Math" name="subject">math
+            <br>
+            <input type="checkbox" value="Computer" name="subject">Computer
+            <br>
+            <input type="checkbox" value="ICT" name="subject">Physicsr
+            <hr>
+            <select name="city" id="city">
+                <option value="Burewala">Burewala</option>
+                <option value="Multan">Multan</option>
+                <option value="Lahore">Lahore</option>
+                <option value="Karachi">Karachi</option>
+            </select>
+            <hr>
+            <button>Submit</button>
+
+       </lable>
+    </form>
+</body>
+</html>
